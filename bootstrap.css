@@ -43,6 +43,7 @@ body {
     margin-left: 288px;
     /* float: left; */
     margin-right: -186px;
+    margin-bottom: 15px;
 }
 #aboutme {
     color: #4aaaa5;
@@ -67,6 +68,8 @@ body {
     height: 250px;
     width: 200px;
     margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #777;
 }
 
 p {
@@ -126,11 +129,12 @@ p {
     }
     .hold {
         width: 960px;
-    min-height: 300px;
-    border: 2px solid #777;
-    margin-top: 15px;
-    margin-left: 20%;
-    background-color: white;
+        min-height: 535px;
+        border: 2px solid #777;
+        margin-top: 15px;
+        margin-left: 20%;
+        margin-bottom: 15px;
+        background-color: white;
     
     }
     .row {
@@ -160,9 +164,28 @@ p {
     }
     .btn-primary {
         color: #fff;
-        background-color: #007bff;
-        border-color: #007bff;
+        
+        border-color: #777;
         margin-bottom: 15px;
         height: 32px;
         background: #4aaaa5;
+    }
+    .knucks {
+        width: 735px;
+        min-height: 300px;
+        border: 2px solid #777;
+        margin-top: 15px;
+        margin-left: 24%;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+    #rod {
+        color: #4aaaa5;
+    border-bottom: 1px solid #777;
+    border-width: 70%;
+    width: 730px;
+    background: white;
+    margin-left: -9px;
+    padding-left: 15px;
+
     }
